@@ -100,6 +100,7 @@ python lib/test/utils/transform_trackingnet.py --tracker_name vit_dist --cfg_nam
 
 ```sh
 python tracking/onnxexport --script vit_dist --config vit_48_h32_noKD
+python tracking/onnxsimplify.py
 ```
 
 ## Contact me
